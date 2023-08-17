@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
+}
+.menu{
+    max-width: 1400px;
+    height: 100px;
+   
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 100px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li .logo{
+    padding-top: 30px;
+}
